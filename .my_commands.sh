@@ -2,9 +2,9 @@
 
 function create() {
     cd
-    source .env
-    python create.py $1
-    cd $FILEPATH$1
+    source /your/path/to/ProjectInitializationAutomation/.env
+    python /your/path/to/ProjectInitializationAutomation/create.py $1
+    cd $FILEPATH/$1
     git init
     git remote add origin git@github.com:$USERNAME/$1.git
     touch README.md
