@@ -11,6 +11,7 @@ git clone "https://github.com/KalleHallden/ProjectInitializationAutomation.git"
 cd ProjectInitializationAutomation
 pip install -r requirements.txt
 Edit the file .env. Use the provided format at the bottom of this README.
+Edit create.py and remove.oy to add your paths.
 source ~/.my_commands.sh, this will make it valid for the actual terminal
 If you want really use it i recommend you to add to .bashrc the
 functions that you'll find on .my_commands.sh .
