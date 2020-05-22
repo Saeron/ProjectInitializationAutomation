@@ -3,14 +3,19 @@
 git clone "https://github.com/KalleHallden/ProjectInitializationAutomation.git"
 cd ProjectInitializationAutomation
 pip install -r requirements.txt
-touch .env
-Then open the .env file and store your username, password, and desired file destination. Use the provided format at the bottom of this README.
-source ~/.my_commands.sh
+Edit the file <code>.env</code>. Use the provided format at the bottom of this README.
+<code>source ~/.my_commands.sh</code>, this will make it valid for the actual terminal
+If you want really use it i recommend you to add to .bashrc the
+functions that you'll find on <code>.my_commands.sh</code> .
 ```
 
 ### Usage:
 ```bash
-To run the script type in 'create <name of your folder>'
+To run the script type:
+'create <name of your folder>'
+or
+'remove <name of your folder>'
+
 ```
 
 ### Env File Format:
